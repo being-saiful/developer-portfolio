@@ -177,6 +177,43 @@ section {
 /* Resume styles */
 
 .resume-title {
-    text-align: center;
     font-size: 35px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.items-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.items-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.items-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.thick-line {
+    border: 1px solid #D1D1D1;
 }
